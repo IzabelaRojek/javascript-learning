@@ -48,9 +48,9 @@ function buttonClicked(argButtonName) {
 
 }
 
-var buttonRock = document.getElementById('button-rock');
-var buttonPaper = document.getElementById('button-paper');
-var buttonScissors = document.getElementById('button-scissors');
+let buttonRock = document.getElementById('button-rock');
+let buttonPaper = document.getElementById('button-paper');
+let buttonScissors = document.getElementById('button-scissors');
 
 buttonRock.addEventListener('click', function() {
   buttonClicked(stone);
